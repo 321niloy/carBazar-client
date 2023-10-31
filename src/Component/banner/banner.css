@@ -1,0 +1,18 @@
+#gradient-background {
+    background-color: white; /* Set the background color to white */
+    display: inline-block; /* or display: block; */
+    padding: 10px 10px 10px 0px; /* Adjust padding as needed */
+    border-radius: 14px 15px 35px 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+  
+  #gradient-text {
+    font-size: 18px; /* Adjust font size as needed */
+    background: linear-gradient(to right, rgb(136, 138, 51), rgba(255, 225, 0, 0.755), rgb(255, 166, 0)); /* Define the gradient colors */
+    -webkit-background-clip: text; /* Apply gradient to the text */
+    background-clip: text; /* Apply gradient to the text */
+    color: transparent; /* Make the text transparent */
+    /* text-shadow: 0 0 5px yellow, 0 0 10px orange; */
+  }

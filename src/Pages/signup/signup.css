@@ -1,0 +1,11 @@
+#forheight{
+    height: fit-content;
+   
+}
+#image-input::file-selector-button {
+    background-color: orange;
+    border: orangered;
+    border-radius: 10px;
+    color: white;
+    
+}
